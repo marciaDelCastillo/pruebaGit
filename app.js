@@ -1,2 +1,2 @@
-let calculadora= require("./calculadora");
-console.log(calculadora.sumar(5,8));
+let {sumar, restar, multiplicar, dividir}= require("./calculadora");
+console.log(sumar(5,8));
